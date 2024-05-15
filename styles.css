@@ -272,6 +272,7 @@ footer p {
   }
   .head-section div {
     width: 100%;
+    padding: 40px auto;
   }
   .container {
     flex-direction: column;
