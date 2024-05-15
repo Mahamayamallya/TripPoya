@@ -65,6 +65,7 @@ ul {
 
 .navigation ul li {
   list-style: none;
+  cursor: pointer;
 }
 
 .navigation ul .active {
