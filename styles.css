@@ -245,4 +245,40 @@ footer {
 footer p {
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 1900px) {
+  section {
+    padding: 0 30px;
+  }
+  .background {
+    background-color: black;
+    background-image: none;
+  }
+  .head-section {
+    height: 50vh;
+    padding: 30px auto;
+    font-size: 14px;
+  }
+  .head-section div {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .head-section {
+    height: 50vh;
+    padding: auto auto;
+    font-size: 10px;
+  }
+  .head-section div {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+    display: block;
+  }
+  .top-tour .card {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
