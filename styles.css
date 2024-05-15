@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.982), rgba(17, 17, 17, 0.5)), url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+section {
+  padding: 0 80px;
+}
+
+h4,
+ul {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.navigation .logo {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  padding: 5px 0 10px 0;
+  color: #ff3c10;
+}
+
+.navigation .search-destination {
+  height: 20px;
+  border: 1px solid #6d6c6c;
+  border-radius: 100px;
+  padding: 5px 10px;
+  width: auto;
+  text-align: center;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation ul .active {
+  font-weight: 600;
+}
+
+.navigation ul .login {
+  border: 1px solid #a8a8a8;
+  padding: 0.3em 0.8em;
+  border-radius: 100px;
+}
+
+.head-section {
+  color: white;
+  text-align: left;
+  height: 100vh;
+}
+
+.head-section div {
+  width: 70%;
+  padding: 140px 0 0 20px;
+}
+
+.head-section .subhead {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.head-section .heading {
+  margin-top: 0;
+  font-size: 5em;
+}
+
+.top-tour {
+  margin: 50px auto;
+}
+
+.top-tour .side-heading {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-left: 4px solid #ff3c10;
+}
+
+.top-tour .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.top-tour .card {
+  font-size: 14px;
+  width: 30%;
+  border-radius: 100px;
+}
+
+.top-tour .card img {
+  max-width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  border-radius: 5%;
+}
+
+.top-tour .card .tour-details p {
+  color: #9a9797;
+  margin-bottom: 0;
+}
+
+.top-tour .card h5 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.top-tour .card .tour-city {
+  font-size: 12px;
+  background: #fff9e9;
+  background: linear-gradient(294deg, #fff9e9 80%, white 100%);
+}
+
+.top-tour .card .tour-city p {
+  padding: 5px;
+}
+
+.top-tour .card .tour-city span {
+  font-weight: 600;
+}
+
+.top-tour .price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.top-tour .price .discounted-price {
+  font-weight: 600;
+}
+
+.top-tour .price .actual-price {
+  text-decoration: line-through;
+}
+
+.top-tour .save-inr {
+  background-color: #c6ecc6;
+  font-size: 10px;
+  padding: 3px 5px 2px 5px;
+  color: green;
+  font-weight: 500;
+}
+
+.top-tour .callback {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #ff3c10;
+  color: white;
+  border-radius: 100px;
+}
+
+.our-values {
+  margin: 50px 0 20px 0;
+  background-image: url(images/background2.jpg);
+  color: white;
+  padding-bottom: 50px;
+  background-position: center;
+  padding-top: 50px;
+}
+
+.our-values .values-content {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-left: 4px solid #ff3c10;
+  width: 90%;
+}
+
+.our-values .values-sub-heading {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.our-values .values-heading {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.instructions {
+  margin: 50px 0 20px 0;
+  background-image: url(images/background3.jpg);
+}
+
+.instructions p {
+  font-weight: 500;
+}
+
+.instructions ol {
+  line-height: 1.5em;
+}
+
+footer {
+  background-color: #2f343c;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */

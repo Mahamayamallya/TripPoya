@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.982), rgba(17, 17, 17, 0.5)),
+    url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+section {
+  padding: 0 80px;
+}
+h4,
+ul {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+// Navigation
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+
+  .logo {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    padding: 5px 0 10px 0;
+    color: #ff3c10;
+  }
+
+  .search-destination {
+    height: 20px;
+    border: 1px solid rgb(109, 108, 108);
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+    background-color: transparent;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: white;
+
+    li {
+      list-style: none;
+    }
+
+    .active {
+      font-weight: 600;
+    }
+
+    .login {
+      border: 1px solid rgb(168, 168, 168);
+      padding: 0.3em 0.8em;
+      border-radius: 100px;
+    }
+  }
+}
+
+//head section
+.head-section {
+  color: white;
+  text-align: left;
+  height: 100vh;
+
+  div {
+    width: 70%;
+    padding: 140px 0 0 20px;
+  }
+
+  .subhead {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .heading {
+    margin-top: 0;
+    font-size: 5em;
+  }
+}
+//Top tour
+.top-tour {
+  margin: 50px auto;
+  .side-heading {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-left: 4px solid #ff3c10;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .card {
+    font-size: 14px;
+    width: 30%;
+    border-radius: 100px;
+
+    img {
+      max-width: 100%;
+      height: fit-content;
+      object-fit: contain;
+      border-radius: 5%;
+    }
+    .tour-details {
+      p {
+        color: rgb(154, 151, 151);
+        margin-bottom: 0;
+      }
+    }
+    h5 {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    .tour-city {
+      font-size: 12px;
+      background: rgb(255, 249, 233);
+      background: linear-gradient(
+        294deg,
+        rgba(255, 249, 233, 1) 80%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      p {
+        padding: 5px;
+      }
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  .price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    text-transform: uppercase;
+
+    .discounted-price {
+      font-weight: 600;
+    }
+    .actual-price {
+      text-decoration: line-through;
+    }
+  }
+  .save-inr {
+    background-color: rgb(198, 236, 198);
+    font-size: 10px;
+    padding: 3px 5px 2px 5px;
+    color: green;
+    font-weight: 500;
+  }
+  .callback {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #ff3c10;
+    color: white;
+    border-radius: 100px;
+  }
+}
+//our values
+.our-values {
+  margin: 50px 0 20px 0;
+  background-image: url(images/background2.jpg);
+  color: white;
+  padding-bottom: 50px;
+  background-position: center;
+  // background-image: url("https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/swirls-gradient-237e0301fbca81ec7e1d9068038a2ab7d26d6aa317768b4215e4848059111553.jpg");
+  padding-top: 50px;
+
+  .values-content {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-left: 4px solid #ff3c10;
+    width: 90%;
+  }
+  .values-sub-heading {
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .values-heading {
+    font-weight: 700;
+    font-size: 2em;
+  }
+}
+//Instructions
+.instructions {
+  margin: 50px 0 20px 0;
+  background-image: url(images/background3.jpg);
+
+  p {
+    font-weight: 500;
+  }
+  ol {
+    line-height: 1.5em;
+  }
+}
+//footer
+footer {
+  background-color: #2f343c;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+
+  p {
+    margin: 0 auto;
+  }
+}
